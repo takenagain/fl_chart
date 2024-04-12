@@ -15,7 +15,10 @@ funding:
   - https://www.buymeacoffee.com/fl_chart
 
 dependencies:
-  equatable: ^2.0.5
+  equatable:
+    git:
+      url: https://github.com/KomodoPlatform/equatable.git
+      ref: 2117551ff3054f8edb1a58f63ffe1832a8d25623 #2.0.5
   flutter:
     sdk: flutter
 
